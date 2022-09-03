@@ -16,13 +16,13 @@ document.write(
           <td>Помідори</td>
           <td>${tomatoWeight}</td>
           <td>${tomatoPrice}</td>
-          <td>${totalPrice}</td>
+          <td>${totalPrice.toFixed(2)}</td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
           <td colspan="3">Разом:</td>
-          <td>${totalPrice}</td>
+          <td>${totalPrice.toFixed(2)}</td>
         </tr>
       </tfoot>
     </table>`
